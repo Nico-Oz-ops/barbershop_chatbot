@@ -46,10 +46,8 @@ Messaggio di benvenuto + Menu principale
     ↓                                   ↓
 Scelta servizio                 Mostra servizi, prezzi
     ↓                              e orari di apertura
-Inserimento nome                        ↓
+Inserimento nome ed email               ↓
     ↓                       [1] Prenota  [2] Menu  [3] Esci
-Inserimento email (validata)
-    ↓
 Generazione link Calendly via API
     ↓
 Utente prenota su Calendly
@@ -218,10 +216,10 @@ Per replicare questo progetto hai bisogno di:
 | | |
 |--|--|
 | ![Flow Botpress](screenshots/01_botpress_flow.png) | ![Benvenuto Telegram](screenshots/02_telegram_welcome.png) |
-| ![Scelta servizio](screenshots/03_service_selection.png) | ![Prenotazione nome](screenshots/04_booking_name.png) |
-| ![Prenotazione email](screenshots/05_booking_email.png) | ![Link Calendly](screenshots/06_calendly_link_generated.png) |
-| ![Pagina Calendly](screenshots/07_calendly_booking_page.png) | ![Email conferma](screenshots/08_confirmation_email.png) |
-| ![Errori e uscita](screenshots/09_error_handling_and_exit.png) | |
+| ![Scelta servizio](screenshots/03_service_selection.png) | ![Nome ed Email](screenshots/04_booking_name_email.png) |
+| ![Link Calendly generato](screenshots/05_calendly_link_generated.png) | ![Pagina Calendly 1](screenshots/06a_calendly_booking_page.png) |
+| ![Pagina Calendly 2](screenshots/06b_calendly_booking_page.png) | ![Email conferma](screenshots/07_confirmation_email.png) |
+| ![Errori e uscita](screenshots/08_error_handling_and_exit.png) | |
 
 ---
 
@@ -287,10 +285,8 @@ Welcome message + Main menu
     ↓                               ↓
 Choose service              Show services, prices
     ↓                          and opening hours
-Enter name                         ↓
+Enter name and email               ↓
     ↓                     [1] Book  [2] Menu  [3] Exit
-Enter email (validated)
-    ↓
 Generate Calendly link via API
     ↓
 User books on Calendly
